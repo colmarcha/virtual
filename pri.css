@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    max-width:1920px;
+    min-width: 300px;
+ 
+}
+.a {
+    display: none;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+ 
+   
+    background:#62aba7;   
+    overflow: hidden;
+}
+nav ul li, .mensajes ul li {
+    list-style-type: none;
+   float: left;
+}
+nav ul li a, .mensajes ul li {
+   padding: 10px 20px;
+   display: block;
+   color: floralwhite;
+text-decoration: none;
+}
+
+nav ul li a:hover, .pri, .pri a {
+   background: white; 
+   color: #00538C;   
+}
+
+main{
+    width: 100%;   
+
+
+    
+}
+ 
+table tr td a img{
+    width: 85%;
+}
+table tr td a img:hover{
+    width: 90%;
+    opacity: 50%;
+}
+
+
+
+
+footer{
+    background-color:#3F3739;
+    width: 100%;
+     float:left;
+}
+
+
+    
+    @media screen and (max-width: 768px){
+        
+        
+        .a {
+            display: inline;
+        }
+        .b {
+            display: none;
+        }
+        
+      
+        main img {
+            border-radius: 4%;
+        }
+            
+           .mensajes ul li{float: none;
+        }
+
+                       
+    
+    nav ul li a{
+        padding: 10px 10px;}
+    
+            
+           
+
+
